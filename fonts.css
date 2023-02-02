@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Neue Machina';
     src: local('Neue Machina Ultralight'), local('NeueMachina-Ultralight'),
         url('./fonts/NeueMachina-Ultralight.woff2') format('woff2'),
@@ -59,5 +59,32 @@
         url('./fonts/NeueMachina-Ultrabold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
+} */
+
+@font-face {
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild6539-6432-4261-b634-336365356262/NeueMachina-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal
 }
 
+@font-face {
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild6330-6662-4832-a330-353763333633/PPNeueMachina-Regula.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild6164-6561-4039-b062-383563353430/Roboto-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild3339-3331-4438-b061-303335623266/PPNeueMachina-Ultrab.woff') format('woff');
+    font-weight: 700;
+    font-style: normal
+}
