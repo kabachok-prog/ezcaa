@@ -4,7 +4,7 @@
 }
 
 .menu {
-    max-width: 1676px;
+    width: 1676px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -13,6 +13,9 @@
     font-weight: 500;
     margin-top: 18px;
     margin-left: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .menu-buttons {
