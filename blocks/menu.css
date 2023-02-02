@@ -1,0 +1,60 @@
+.menu-contact {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    max-width: 1676px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Neue Machina', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-left: 120px;
+}
+
+.menu-buttons {
+    display: flex;
+}
+
+.menu-item {
+    margin: 0 30px 0 0;
+}
+
+.menu-item:last-of-type {
+    margin-right: 0;
+}
+
+.menu-other-buttons {
+    display: flex;
+}
+
+.lang-selector {
+    display: flex;
+}
+
+.logo {
+    margin: 0;
+    font-family: 'Neue Machina', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.lang-item {
+    margin: 0;
+}
+
+.menu-contact {
+    margin-right: 63px;
+}
+
+.lang-link {
+    text-decoration: none;
+    color: white;
+}
+
+.lang-link_active {
+    color: #5b86e5;
+}
