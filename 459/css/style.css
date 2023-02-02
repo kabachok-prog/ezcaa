@@ -1,0 +1,196 @@
+body {
+    font-family: NeueMachina;
+    background-color: rgb(21, 21, 21);
+}
+
+.wrapper {}
+
+.container {}
+
+/* ================= HEADER ====================== */
+
+.header {
+    /* position: fixed; */
+}
+
+.header__nav {
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 18px;
+    /* position: fixed; */
+}
+
+.container {}
+
+.header__nav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(225, 225, 225);
+    /* position: fixed; */
+}
+
+.nav__logo {}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    /* line-height: 2px; */
+    text-transform: uppercase;
+    /* line-height: 1.5; */
+}
+
+.nav__items {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.nav__item:hover {
+    color: rgb(93, 136, 229);
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__contacts {
+    display: flex;
+}
+
+.nav__contact {
+    margin-right: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav__languages {}
+
+.nav__language-en {
+    margin-right: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav__language-en::after {
+    content: "";
+    position: absolute;
+    height: 17px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 10px;
+    width: 2px;
+    top: 0;
+    left: 30px;
+}
+
+.nav__language-ru {
+    margin-right: 21px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ================= NAME ====================== */
+
+.main__name {}
+
+.name {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container {}
+
+.name__inner {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+}
+
+.name__letter {
+    margin-right: 30px;
+}
+
+.name__letter:last-child {
+    margin-right: 0;
+}
+
+
+/* ================= STEPS ====================== */
+
+.steps {}
+
+.main__steps {
+    margin-left: 672px;
+    margin-top: 75px;
+}
+
+.container {}
+
+.steps__inner {
+    
+}
+
+.first__step {}
+
+.first__step-heading {
+    max-width: 800px;
+    margin-bottom: 130px;
+    position: relative;
+}
+
+.first__step-heading::before {
+    content: "01";
+    position: absolute;
+    color: rgb(225, 225, 225);
+    font-size: 30px;
+    font-weight: 400;
+    top: -3px;
+    left: -60px;
+}
+
+.first__step-title {
+    color: rgb(225, 225, 225);
+    font-size: 68px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.first__step-subtitle {
+    color: rgb(196, 196, 196);
+}
+
+.first__step-companies {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 20px;
+}
+
+.first__step-companie {
+    /* padding-right: 20px; */
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__step-companie img {
+    width: 150px;
+    height: 50px;
+}
+
+.first__step-companie .eleganzza {
+    height: 101px;
+    width: 194px;
+}
