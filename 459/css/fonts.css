@@ -1,43 +1,27 @@
 @font-face {
-    font-family: NeueMachina;
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild6539-6432-4261-b634-336365356262/NeueMachina-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild6330-6662-4832-a330-353763333633/PPNeueMachina-Regula.woff') format('woff');
     font-weight: 400;
-    font-style: normal;
-    src: local("NeueMachina"),
-        url("../fonts/NeueMachina-Regular.woff2") format('woff2'),
-        url("../fonts/NeueMachina-Regular.woff") format('woff'),
-        url("../fonts/NeueMachina-Regular.eot") format('eot');
-    font-display: swap;
+    font-style: normal
 }
 
 @font-face {
-    font-family: NeueMachina;
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild6164-6561-4039-b062-383563353430/Roboto-Regular.woff') format('woff');
     font-weight: 500;
-    font-style: normal;
-    src: local("NeueMachina"),
-        url("../fonts/NeueMachina-Medium.woff2") format('woff2'),
-        url("../fonts/NeueMachina-Medium.woff") format('woff'),
-        url("../fonts/NeueMachina-Medium.eot") format('eot');
-    font-display: swap;
+    font-style: normal
 }
 
 @font-face {
-    font-family: NeueMachina;
+    font-family: 'PPNeueMachina';
+    src: url('https://static.tildacdn.com/tild3339-3331-4438-b061-303335623266/PPNeueMachina-Ultrab.woff') format('woff');
     font-weight: 700;
-    font-style: normal;
-    src: local("NeueMachina"),
-        url("../fonts/NeueMachina-Bold.woff2") format('woff2'),
-        url("../fonts/NeueMachina-Bold.woff") format('woff'),
-        url("../fonts/NeueMachina-Bold.eot") format('eot');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: NeueMachina;
-    font-weight: 900;
-    font-style: normal;
-    src: local("NeueMachina"),
-        url("../fonts/NeueMachina-Black.woff2") format('woff2'),
-        url("../fonts/NeueMachina-Black.woff") format('woff'),
-        url("../fonts/NeueMachina-Black.eot") format('eot');
-    font-display: swap;
+    font-style: normal
 }
