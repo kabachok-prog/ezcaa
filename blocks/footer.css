@@ -1,0 +1,75 @@
+.footer {
+    font-family: 'PPNeueMachina', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1160px;
+    margin: 0 auto 20px auto;
+}
+
+.higher-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-container {
+    display: flex;
+}
+
+.document-container {
+    display: flex;
+}
+
+.footer-line {
+    width: 1160px;
+    height: 1px;
+    background-color: #6b6b6b;
+}
+
+.up-button {
+    color: white;
+    margin: 0;
+}
+
+.social-link {
+    margin: 0 43px 0 0;
+}
+
+.social-link:last-child {
+    margin-right: 150px;
+}
+
+.meta-sign {
+    width: 70px;
+    height: 40.14px;
+    background-image: url(.././images/meta.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.document {
+    margin-right: 54px;
+    margin-top: 27px;
+    color: #6b6b6b;
+}
+
+.mail {
+    margin-top: 27px;
+}
+
+.copyright {
+    margin-top: 27px;
+}
+
+.document:last-child {
+    margin-right: 260px;
+}
+
