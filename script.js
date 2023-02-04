@@ -57,7 +57,20 @@ class Sticker {
         })
     }
 }
+
+const zone = document.querySelector('.sticky_w');
+const circle = document.querySelector('.article-button');
+zone.addEventListener('mouseover', () => {
+    circle.style.width = '220px';
+    circle.style.height = '220px';
+})
+
+zone.addEventListener('mouseleave', () => {
+    circle.style.width = '200px';
+    circle.style.height = '200px';
+})
 new Sticker({
     inertion: 0.3,
     spring: 0.3
 });
+

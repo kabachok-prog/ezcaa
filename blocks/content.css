@@ -11,7 +11,7 @@
 }
 
 .article:last-child {
-    margin-bottom: 120px;
+    margin-bottom: 0;
 }
 
 .article-container-number {
@@ -44,7 +44,7 @@
 }
 
 .article-line-last {
-    margin: 31px 0 52px 74px;
+    margin: 31px 0 0 74px;
 }
 
 .article-content {
@@ -113,19 +113,20 @@
 .article-button {
     display: block;
     background-image: url('.././images/lets-grow.svg');
+    background-size: cover;
     width: 200px;
     height: 200px;
     margin-left: 200px;
     z-index: 3;
     cursor: pointer !important;
+    transition: .05s ease-in-out;
 }
 
 .sticky_w {
     width: 800px;
     height: 370px;
-    position: absolute;
-    top: 100px;
-    left: 1px;
     z-index: 1;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
