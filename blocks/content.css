@@ -7,6 +7,7 @@
     margin-top: 129px;
     flex-direction: column;
     margin-left: 607px;
+    position: relative;
 }
 
 .article:last-child {
@@ -115,4 +116,16 @@
     width: 200px;
     height: 200px;
     margin-left: 200px;
+    z-index: 3;
+    cursor: pointer !important;
+}
+
+.sticky_w {
+    width: 800px;
+    height: 370px;
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    z-index: 1;
+    cursor: pointer;
 }
